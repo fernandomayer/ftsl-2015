@@ -54,3 +54,6 @@ git stash clear
 git stash save 'alterando alguma coisa'
 git stash list
 git stash apply stash@{0} # volta
+
+git branch teste
+git rebase master
