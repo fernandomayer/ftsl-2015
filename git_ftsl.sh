@@ -56,4 +56,8 @@ git stash list
 git stash apply stash@{0} # volta
 
 git branch teste
+git checkout teste
 git rebase master
+# resolve conflito e da um add, sem commit
+git rebase --continue
+# o rebase eh destrutivo! o merge preserva os branches e os commits
